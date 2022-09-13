@@ -55,7 +55,7 @@ Der Code am Ende zeigt, wie die Schleife in C# geschrieben wird.
 Da ich in meinem kleinen Projekt IPERKA verwendet habe, ging es mir beim Arbeiten gut.
 Das Informieren und Planen von Codes ging mir am Anfang schwierig, aber dies besserte sich im Laufe des Projektes.
 #### Wo gab es Probleme?
-Ich hatte gewisse Probleme, bei der Anordnungen von der Schleife. Zum Beispiel wusste ich nicht genau, in den Try und Catch Code kommt.
+Ich hatte gewisse Probleme, mit der Planung der Zeit. Zum Beispiel habe ich die Zeit nicht richtig eingeschätzt.
 
-**VBV** Für das nächste Mal Informiere ich mich besser über die code Schleifen und sollte mir genug früh die User-stories schreiben, das heisst: Ich sollte mir früh genug vorher überlegen, was alles in meinem Programm vorhanden sein muss.
+**VBV** Für das nächste Mal informiere ich mich besser über mein zukünftiges Programm und sollte mir genug früh die User-stories schreiben, das heisst: Ich sollte mir früh genug vorher überlegen, was alles in meinem Programm vorhanden sein muss.
 
