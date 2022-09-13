@@ -2,21 +2,22 @@
 von Pascal Oestrich
 
 ## Einleitung
-Ich habe ein kleines Consolespiel prgorammiert, indem man eine zahl zwischen 1 und 100 erraten kann. Das kleine Spiel kann mit Fehlereingaben umgehen und gibt eine gewisse Ausgaben aus.
-In diesem Bericht werde ich dokumentieren, was ich an meiner Arbeit von meinem kleinen Spiel habe. Dies werde ich hier in dieser Dokumentation in Form von Text, Bild und Video darstellen.
+Ich habe ein kleines Konsolespiel programmiert, indem man eine Zahl zwischen 1 und 100 erraten kann. Das kleine Spiel kann mit Fehlereingaben umgehen und gibt eine gewisse Ausgabe aus.
+
+In diesem Bericht werde ich dokumentieren, was ich an meiner Arbeit von meinem kleinen Spiel habe. Dies werde ich hier in dieser Dokumentation in Form von Text, Bild und einem GIF darstellen.
 
 ## Mein erlerntes Wissen.
-Ich habe in diesem Projekt vieles über das Programmieren gelernt, aber das was mir am wichtigsten und interesantesten war, waren die Schleifen und deren gebrauchsarten. Dazu weiss ich nun, wie ich eine zufällige zahl generiere und eine Fehlermeldung programmiere (try und catch).
-In dieserm Lernbericht, werde ich mich ausschliesslich auf das (try and catch) fokusieren
+Ich habe in diesem Projekt vieles über das Programmieren gelernt, aber das, was mir am wichtigsten und interessantesten war, waren die Schleifen und deren Gebrauchsarten. Dazu weiss ich nun, wie ich eine zufällige Zahl generiere und eine Fehlermeldung programmiere (try und catch).
+In diesem Lernbericht, werde ich mich ausschliesslich auf das (try and catch) fokussieren
 ## Beschreibung
 
-In meinem Programm habe ich eine try and catch Schleife programmiert, dass mein Programm mit falschen Eingaben umgehen kann und nicht abstürtzt.
+In meinem Programm habe ich eine try and catch Schleife programmiert, dass mein Programm mit falschen Eingaben umgehen kann und nicht abstürtz.
 
 ## Beschreibung
 
-Das try and catch wird gebraucht, um Eingaben zu überprüfen und richtig zu behandeln, ohne dass das Programm abstürtzt.
-Um so eine Schleife zu programmieren, braucht man ein try, in dem die Eingabe liegt, dass gebprüft werden sollte. Und ein catch, in dem der mögliche fehler abgefangt  und den Code im catch ausgeführt wird.
-In meinem Programm, habe ich ein try and catch einprogrammiert. Wenn man eine ungültige Eingabe tätigt, zum Beispiel Strings und doibels, stürtzt das Programm nicht ab, sonder es informiert den Spieler, dass das Eingegebene ungültig ist und man nochmal eine Eingabe tätigen sollte. Das Programm öffnet demnach wieder die Eingabe für die gesuchte Zahl.
+Das Try and catch wird gebraucht, um Eingaben zu überprüfen und richtig zu behandeln, ohne dass das Programm abstürtz.
+Um so eine Schleife zu programmieren, braucht man ein Try, in dem die Eingabe liegt, dass geprüft werden sollte. Und ein Catch, in dem der mögliche Fehler abgefangen  und den Code im Catch ausgeführt wird.
+In meinem Programm habe ich ein Try and catch einprogrammiert. Wenn man eine ungültige Eingabe tätigt, zum Beispiel Strings und doubels, stürtz das Programm nicht ab, sondern es informiert den Spieler, dass das Eingegebene ungültig ist und man nochmal eine Eingabe tätigen sollte. Das Programm öffnet demnach wieder die Eingabe für die gesuchte Zahl.
 
 ```csharp
  try
@@ -40,17 +41,21 @@ In meinem Programm, habe ich ein try and catch einprogrammiert. Wenn man eine un
 
 ## Verifikation
 
-##### Text
+##### Text:
 Der Text beschreibt, wie eine try and catch Schleife funktioniert und wie ich es in meinem Programm verwende.
-##### Gif
-Das Gif zeigt die Konsole, in dem eine falsche Eingabe getätigt wurde und wie das try and catch in meine Programm funktioniert.
-##### Code
-Der Code am Ende zeigt, wie die Schleife in C# geschhrieben wird.
+##### GIF:
+Das GIF zeigt die Konsole, in dem eine falsche Eingabe getätigt wurde und wie das try and catch in meinem Programm funktioniert.
+##### Code:
+Der Code am Ende zeigt, wie die Schleife in C# geschrieben wird.
 
 ## Reflexion
 
 #### Was gut ging:
 
-Das Negative war, mein Arbeitsplatz war ein bisschen unaufgeräumt, somit war es ein bisschen unpraktisch, dort zu lernen.
+Da ich in meinem kleinen Projekt IPERKA verwendet habe, ging es mir beim Arbeiten gut.
+Das Informieren und Planen von Codes ging mir am Anfang schwierig, aber dies besserte sich im Laufe des Projektes.
+#### Wo gab es Probleme?
+Ich hatte gewisse Probleme, bei der Anordnungen von der Schleife. Zum Beispiel wusste ich nicht genau, in den Try und Catch Code kommt.
 
-**VBV** Für das Nächstemal werde ich meinen Arbeitsplatz gründlich aufräumen, dass mir einen angenehmen Arbeitsplatz zu Verfügung steht.
+**VBV** Für das nächste Mal Informiere ich mich besser über die code Schleifen und sollte mir genug früh die User-stories schreiben, das heisst: Ich sollte mir früh genug vorher überlegen, was alles in meinem Programm vorhanden sein muss.
+
