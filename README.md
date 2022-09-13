@@ -3,21 +3,19 @@ von Pascal Oestrich
 
 ## Einleitung
 Ich habe ein kleines Consolespiel prgorammiert, indem man eine zahl zwischen 1 und 100 erraten kann. Das kleine Spiel kann mit Fehlereingaben umgehen und gibt eine gewisse Ausgaben aus.
-## Mein erlerntes Wissen.
-In diesem Bericht werde ich dokumentieren, was ich an meiner Arbeit von meinem kleinen Spiel habe. Dies werde ich hier in dieser Dokumentation in Form von Text, Bild und Video darstellen. Ich habe in diesem Projekt vieles über das Programmieren gelernt, aber das was mir am wichtigsten und interesantesten war, waren die Schleifen und deren gebrauchsarten. Dazu weiss ich nun, wie ich eine zufällige zahl generiere und eine Fehlermeldung programmiere (try und catch).
-## Beschreibung
-Die Schleifen, die ich in meinem Projekt verwenden haben, waren die fusgesteuerte Schleife (do und while), if/if else schleife (if) und die (try catch) Schleife.
+In diesem Bericht werde ich dokumentieren, was ich an meiner Arbeit von meinem kleinen Spiel habe. Dies werde ich hier in dieser Dokumentation in Form von Text, Bild und Video darstellen.
 
-Mit einer Schleife kann man verschiedene Codevorgänge wiederholen lassen und überprüfungen durchführen. In meinem Projekt habe ich zum Beispiel eine (do and while) Schleife verwendet um am Ende des Spiels nochmals spielen zu könne, ohne die Console neu zu starten.
-Für das überprüfen, der eingegebene Zahl verwendete ich in meinem Programm die if/if else Schleife.
-Und zum Schluss programmierte ich ein (try and catch) in meinem Programm ein, damit mein Programm mit Fehlereingaben umgehen kann und nicht abstürtzt.
-#### Was passiert (Beispiel)
-###### do and while:
-Wenn man am Ende des Spiel ist, wird man abgefragt, ob man das Spiel noch einmal spielen möchte. Dies kann man mit y|n beantwortet. Bei y, fängt das Spiel wieder von vorne an und generiert eine neue Zufallszahl. Bei n stoppt das Spiel und die Console schliesst sich.
-###### if/if else:
-Die if/if else Schleife überprüft, ob die eingegebene zahl grösser oder kleiner als die gesuchte Zahl ist. Also wenn man bei der Eingabe eine Zahl eingiebt, die grösser oder kleiner ist, als die gesuchte Zahl, erscheint eine Ausgabe der Console, in dem steht: "Die gesuchte Zahl ist grösser als (Eingegebene Zahl)",    oder :"Die gesuchte Zahl ist kleiner als (Eingegebene Zahl)".
-###### try and catch:
-Um falsche Eingabe zu überprüfen und um richtig zu behandeln, ohne dass das Programm abstürtzt, habe ich eine try and catch Schleife einprogrammiert. Wenn man eine ungültige Eimgabe tätigt, stürtzt das Programm nicht ab, sonder es informiert den Spieler, dass das Eingegebene ungültig ist und man es nochmal versuchen sollte. Das Programm öffnet nach dem wieder die Eingabe für die gesuchte Zahl.
+## Mein erlerntes Wissen.
+Ich habe in diesem Projekt vieles über das Programmieren gelernt, aber das was mir am wichtigsten und interesantesten war, waren die Schleifen und deren gebrauchsarten. Dazu weiss ich nun, wie ich eine zufällige zahl generiere und eine Fehlermeldung programmiere (try und catch).
+In dieserm Lernbericht, werde ich mich ausschliesslich auf das (try and catch) fokusieren
+## Beschreibung
+
+Um so eine Schleife zu programmieren, braucht man ein try, in dem die Eingabe liegt, dass gebprüft werden sollte. Und ein catch, in dem der mögliche fehler abgefangt  und den Code im catch ausgeführt wird.
+
+![image](https://user-images.githubusercontent.com/110892258/189841540-74be42fb-cf2a-4b84-8105-5c1e9c7af00d.png)
+
+Das try and catch wird gebraucht, um Eingaben zu überprüfen und richtig zu behandeln, ohne dass das Programm abstürtzt.
+In meinem Programm, habe ich ein try and catch einprogrammiert. Wenn man eine ungültige Eingabe tätigt, zum Beispiel Strings und doibels, stürtzt das Programm nicht ab, sonder es informiert den Spieler, dass das Eingegebene ungültig ist und man nochmal eine Eingabe tätigen sollte. Das Programm öffnet demnach wieder die Eingabe für die gesuchte Zahl.
  
 
 ## Verifikation
